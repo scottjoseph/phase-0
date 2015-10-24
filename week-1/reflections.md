@@ -67,3 +67,49 @@ pwd, ls, mv, ../, touch, mkdir, rmdir, less, -help
   -help = shows information on the specified command
 
 # 1.4 Forking and Cloning Reflection
+
+*If you were going to write instructions for a new person on how to create a new repo, fork a repo, and clone a repo, what would they be?
+
+##### to create a new repo
+
+1. go to github.com and sign in/up.
+
+2. click the "+" in the top right corner next to your github avatar
+
+3. click new repository
+
+4. you will be taken to the new repo page. do the following:
+
+  -name it something relevant.
+
+  -make sure it's "public".
+
+  -change the license to MIT License.
+
+  -then click create repository.
+
+##### to fork a repo
+
+1. navigate to the repo you wish to fork.
+
+2. click the "fork" button around the top right of the page.
+
+this will copy the repo to your own github account
+
+##### to clone a repo
+
+1. copy the clone url in the bottom right of the repo page.
+
+2. on your command line, type "git clone" and paste the clone url of the repo and press enter.
+
+this will copy the repo to your machine
+
+ Why would you fork a repository as opposed to create a new one?
+
+forking allows you to copy all the files in a repo with a simple click. if you created a new repo, you'd have to also create the files.
+
+*What struggles did you have setting up git and GitHub? What did you learn in the process?
+
+I didn't really struggle with it. it was pretty straight forward in my opinion.
+
+I learned how easy it was to fork and clone repo's.
