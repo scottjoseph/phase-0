@@ -1,5 +1,5 @@
-<a href="/week-2/imgs/wireframe-index.png">Site Map</a>
-<a href="/week-2/imgs/wireframe-blog-index.png">Site Map</a>
+<a href="/week-2/imgs/wireframe-index.png">Wireframe Index</a>
+<a href="/week-2/imgs/wireframe-blog-index.png">Blog Index</a>
 
 
 ## What is a wireframe?
