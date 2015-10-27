@@ -1,14 +1,5 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-</head>
-
-<body>
 <a href="/imgs/site-map.png">Site Map</a>
-</body>
-
-</html>
 
 *What are the 6 Phases of Web Design?
   - Information gathering(knowing what the site is going to be used for)
