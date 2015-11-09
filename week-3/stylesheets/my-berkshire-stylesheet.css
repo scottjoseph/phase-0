@@ -1,0 +1,81 @@
+/*
+2. Position the links into two columns
+
+    Make the description text smaller and the normal font color
+*/
+
+* {
+    color: #000080;
+    background-color: #ffffff;
+}
+
+a {
+    color: #800080;
+}
+
+a:visited {
+    color: #ff0000;
+}
+
+li {
+    margin: 15px;
+}
+
+.links {
+    text-align: center;
+    width:100%;
+    margin: 10px;
+    height: 50%;
+
+}
+
+.linebreak {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#header {
+    text-align: center;
+    font-size: 115%;
+    font-weight: bold;
+    margin: 10px 0px 2px 0px;
+    padding-top: 10px;
+}
+
+span {
+    font-size: 200%;
+}
+
+.header {
+    text-align: center;
+    font-size: 75%;
+    font-weight: bold;
+    margin: 0px 0px 2px 0px;
+}
+
+.smalltext {
+    font-size: 75%;
+}
+
+.bottom {
+    text-align: center;
+    margin: 0px 0px 2px 0px;
+}
+
+
+/*
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+  -It's important to know where the file is located at and what type of file it is. Also where you're supposed to link the file in the html.
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+  -I mostly just tried to put things in sections so I could position a bunch of things all at once with classes. The site still isn't exactly how I want it to be so it's a little frustrating.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+  -I used a lot of font-size and text-align as well as margin
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+  -I used a few classes and 1 id. I made classes because the site had quite a few things centered or smaller text. I made 1 id for the header because of the way the instructions asked and I just wanted to even though I might not have needed to.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+  -I think I had cleaner code. The actual code base had everything have inline-styling which to me, looked a little messy. I'm not sure how well I followed best practices, but I think I followed it better than the base code at least.
+*/
