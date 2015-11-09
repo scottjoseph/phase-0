@@ -12,7 +12,7 @@
   -it makes things very dynamic giving you a live preview as you work, highlights what elements affect what, and even gives an auto-complete
 
 **How can you resize elements on the DOM using CSS?**
-  -
+  -by highlighting the element you want to modify then adding the appropriate css in the window
 
 **What are the differences between absolute, fixed, static, and relative positioning? Which did you find easiest to use? Which was most difficult?**
   -static is the default position and is placed according to the flow of the page. relative is positioned relative to the default position. fixed makes an element stays in place wherever it's positioned even if the page is scrolled. absolute is positioned relative to the nearest positioned ancestor unless there isn't one, in which an absolute positioned element will move with scrolling. the easiest to use was fixed. the hardest to use was absolute.
