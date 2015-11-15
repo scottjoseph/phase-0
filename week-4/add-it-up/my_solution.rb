@@ -14,7 +14,7 @@
 # Steps to solve the problem.
 # the method takes an argument
 # iterates over each item in the array and adds it together
-
+# it returns all array items added together
 # 1. total initial solution
 def total(array)
 sum = 0
@@ -31,19 +31,34 @@ end
 
 # 4. sentence_maker pseudocode
 # make sure all pseudocode is commented out!
-# Input:
-# Output:
+# Input: array of strings
+# Output: a grammatically correct sentence
 # Steps to solve the problem.
+# initialize an empty string
+# add every element of the array to the empty string with a space
+# return the sentence with a capitalized first letter and removing the last space
+# add a period to the end of the sentence
 
-
-# 5. sentence_maker initial solution
-# def sentence_maker(string)
-#   sentence = ""
-#   sentence_maker.each do |word|
-#     sentence += " " + word
-#   end
-#   puts sentence.lstrip.capitalize + "."
-# end
+ # 5. sentence_maker initial solution
+ def sentence_maker(string)
+   sentence = ""
+ string.each do |word|
+     sentence += word.to_s + " "
+   end
+   return sentence.capitalize.rstrip + "."
+ end
 
 
 # 6. sentence_maker refactored solution
+
+ def sentence_maker(string)
+   sentence = ""
+ string.each do |word|
+     sentence += word.to_s + " "
+   end
+   return full_sentence(sentence)
+ end
+
+def full_sentence(sentence)
+  return sentence.capitalize.rstrip + "."
+end
