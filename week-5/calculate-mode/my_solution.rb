@@ -50,7 +50,7 @@ end
 
 # Were you more successful breaking this problem down into implementable pseudocode than the last with a pair?
 
-# - NO! NO! NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO! all my noes.
+# - NO! NO! NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO! all my no's. This was a little harder.
 
 # What issues/successes did you run into when translating your pseudocode to code?
 
