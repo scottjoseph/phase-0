@@ -81,12 +81,17 @@ end
 # DRIVER CODE
  # initialize VirusPredictor for each state
 
-state_array = STATE_DATA.keys
+# state_array = STATE_DATA.keys
 
-state_array.each do |state|
+# state_array.each do |state|
+#   each_state = VirusPredictor.new(state, STATE_DATA[state][:population_density], STATE_DATA[state][:population])
+#   each_state.virus_effects
+# end
+
+STATE_DATA.each_key { |state|
   each_state = VirusPredictor.new(state, STATE_DATA[state][:population_density], STATE_DATA[state][:population])
   each_state.virus_effects
-end
+}
 
 # alabama = VirusPredictor.new("Alabama", STATE_DATA["Alabama"][:population_density], STATE_DATA["Alabama"][:population])
 # alabama.virus_effects
@@ -103,3 +108,18 @@ end
 
 #=======================================================================
 # Reflection Section
+
+# What are the differences between the two different hash syntaxes shown in the state_data file?
+# - the parent hash uses strings as keys to the nested hashes while the nested hashes use symbols as keys.
+
+# What does require_relative do? How is it different from require?
+# - require_relative accesses a specified file relative/by file path to the file you're accessing from. require accesses system functions
+
+# What are some ways to iterate through a hash?
+# - you can use each to iterate through each key/value pair in a hash. you can also use each_key/each_value to return only  keys or values respectively.
+
+# When refactoring virus_effects, what stood out to you about the variables, if anything?
+# - the instance variables were initialized at the beginning which were then used within the methods within virus_effects. it didn't make sense to pass them in as arguments to virus_effects as it's the methods within it that use the variables, not the virus_effects method itself.
+
+# What concept did you most solidify in this challenge?
+# - the idea of instance variables and the private keyword
